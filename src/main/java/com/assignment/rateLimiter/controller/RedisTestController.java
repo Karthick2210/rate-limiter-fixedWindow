@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/redis")
 public class RedisTestController {
     private final StringRedisTemplate redisTemplate;
-
     public RedisTestController(StringRedisTemplate redisTemplate) {
         this.redisTemplate = redisTemplate;
     }
