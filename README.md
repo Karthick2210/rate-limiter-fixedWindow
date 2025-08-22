@@ -43,7 +43,7 @@ GET http://localhost:8080/ratelimit/check
 
 --Example Request:
 
-GET http://localhost:8080/ratelimit/check?api=/api/hello&method=GET&userId=123&clientId=abc&ip=127.0.0.1
+GET http://localhost:8080/ratelimit/checkDecision?api=/api/hello&method=GET&userId=123&clientId=abc&ip=127.0.0.1
 
 
 --Example Response (Allowed):
