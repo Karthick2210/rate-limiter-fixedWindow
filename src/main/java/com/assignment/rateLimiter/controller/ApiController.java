@@ -18,9 +18,9 @@ public class ApiController {
         boolean allowed = rateLimiter.requestAllow(userId, "/test-api", 5); // 5 requests per minute
 
         if (allowed) {
-            return "✅ Request allowed for user " + userId;
+            return "Request allowed for user " + userId;
         } else {
-            return "⛔ Rate limit exceeded for user " + userId;
+            return "Rate limit exceeded for user " + userId;
         }
     }
 }
