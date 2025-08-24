@@ -13,21 +13,6 @@ public class Decision {
         this.reason = reason;
     }
 
-    public boolean isAllowed() {
-        return allowed;
-    }
-
-    public long getRemaining() {
-        return remaining;
-    }
-
-    public long getResetMs() {
-        return resetMs;
-    }
-
-    public String getReason() {
-        return reason;
-    }
 }
 
 

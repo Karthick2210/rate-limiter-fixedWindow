@@ -9,26 +9,6 @@ public class RequestContext {
     private  final  String ip;
 
 
-    public String getApi() {
-        return api;
-    }
-
-    public String getMethod() {
-        return method;
-    }
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public String getClientId() {
-        return clientId;
-    }
-
-    public String getIp() {
-        return ip;
-    }
-
     public RequestContext(String api, String method, String userId, String clientId, String ip) {
         this.api = api;
         this.method = method;
